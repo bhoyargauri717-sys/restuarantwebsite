@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body bgcolor="#ffffff">
+
+
+
+
+    <table width="100%" border="0" cellpadding="18" cellspacing="0" bgcolor="#fffff">
+        <tr>
+            <td align="left" valign="middle">
+                <font  color="#c8961e" size="6"><b>Royal Food Corner</b></font>
+            </td>
+            <td align="right" align="middle">
+                <nav>
+                    <font  size="3">
+                        <a href="home.html">
+                            <font color="#c8961e"><b>🏡Home</b></font>
+                        </a> &nbsp;&nbsp;
+                        <a href="menu.html">
+                            <font color="#c8961e"><b>📋Menu</b></font>
+                        </a> &nbsp;&nbsp;
+
+                        <a href="about.html">
+                            <font color="#c8961e"><b>🪴About Us</b></font>
+                        </a>
+                    </font>
+                </nav>
+            </td>
+        </tr>
+    </table>
+    <center>
+        <font color="#6e1423" size="7"><b>Reserve Your Table</b></font><br>
+        <font color="#8a7460" size="3"><em>We'd love to host you</em></font>
+
+        <br><br>
+        <form action="sucessful.html">
+            <table width="480" border="1" bordercolor="#c8961e" cellpadding="30" cellspacing="0" bgcolor="#ffffff">
+                <tr>
+                    <td>
+
+                        <form action="submit-booking.php" method="POST">
+                            <table border="0" cellpadding="10" cellspacing="0" width="100%">
+
+                                <tr>
+                                    <td>
+                                        <font  color="#4a2c0f" size="2">Full Name</font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="text" name="fullname" size="38" required></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <font  color="#4a2c0f" size="2">Phone Number</font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="tel" name="phone" size="38" required></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <font  color="#4a2c0f" size="2">Date</font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="date" name="bookingdate" required></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <font  color="#4a2c0f" size="2">Time</font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="time" name="bookingtime" required></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <font color="#4a2c0f" size="2">Guests</font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <select name="guests">
+                                            <option>1 Guest</option>
+                                            <option>2 Guests</option>
+                                            <option>3 Guests</option>
+                                            <option>4 Guests</option>
+                                            <option>5+ Guests</option>
+                                        </select>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <font color="#4a2c0f" size="2">Special Request</font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><textarea name="message" rows="3" cols="38"></textarea></td>
+                                </tr>
+
+                                <tr>
+                                    <td align="center">
+                                        <br>
+
+                                        <button type="submit" value="submit">
+                                            <font color="#c8961e"> Confirm Booking</font>
+                                        </button>
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </form>
+
+                    </td>
+                </tr>
+            </table>
+        </form><br>
+        <footer>
+            <font  color="#6e1423" size="2">📞 +91-9766951168 &nbsp; | &nbsp;📍45 Le Loi Street, Ben Thanh
+                Ward, District 1, Ho Chi Minh City, Vietnam &nbsp;| &nbsp;⏰ 11 AM - 11 PM</font>
+        </footer>
+</body>
+
+</html>
